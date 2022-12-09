@@ -1,9 +1,8 @@
 alphabet = " ():!_?<>.,-абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
 izh = input("Введите сообщение: ")
-key = 8
-print("ключ шифрования - ", key)
-encrypto = ""
-decrypto = ""
+key = int(input("Введите ключ шифрования: "))
+encrypted = ""
+decrypted = ""
 
 for message in izh:
     position = alphabet.find(message)
