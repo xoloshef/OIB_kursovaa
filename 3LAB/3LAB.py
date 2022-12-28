@@ -18,8 +18,6 @@ def encrypted(t):
                 id_izh = alphabet.index(x)
                 id = id_izh + key % (k - 1)
 
-                id = id_izh + key % (k - 1)
-
                 ret += alphabet1[id]
             elif (z % 3) == 1:
                 id_izh = alphabet.index(x)
